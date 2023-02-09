@@ -1,0 +1,15 @@
+MDScreen:
+    MDRectangleFlatIconButton
+        text: 'Gerar senha'
+        icon: 'key'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.3}
+        on_press: app.get_data()
+    MDTextField:
+        id: quant
+        mode: "rectangle"
+        pos_hint: {'center_x': 0.5, 'center_y': 0.6}
+        size_hint_x: .2
+    MDSwitch:
+        widget_style: 'ios'
+        on_active: app.tema_dark(*args)
+        pos_hint: {'center_x': 0.5, 'center_y': 0.8}
