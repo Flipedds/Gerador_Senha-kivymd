@@ -1,4 +1,5 @@
 # Gerador_Senha-kivymd-python
+Aplicativo Mobile gerador de senha
 
 ![image](https://user-images.githubusercontent.com/110608654/217697081-28043dbf-14a0-4316-927f-989d98073755.png)
 
